@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoya Shah - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Zoya Shah</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work-experience">Work Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-light">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Zoya Shah</span></h1>
+            <h5>Data Engineer | M.tech Graduate</h5>
+            <h6>"Passionate about transforming data into meaningful insights"</h6>
+            <a href="#work-experience" class="btn btn-projects mt-3">Work Experience</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container" data-aos="fade-up">
+            <h2>About Me</h2>
+            <p class="about-intro">
+                I am Zoya Shah, a Data Engineer with expertise in building scalable data pipelines and developing RESTful APIs. 
+                Proficient in Python, SQL, and cloud technologies, I enjoy solving complex data challenges and contributing to impactful projects.
+            </p>
+            
+            <!-- Education and Achievements Section -->
+            <div class="row mt-5">
+                <!-- Education Section -->
+                <div class="col-md-6">
+                    <h3>Education</h3>
+                    <div class="info-card" data-aos="fade-right">
+                        <i class="bi bi-mortarboard"></i>
+                        <h4>MCA, XYZ University</h4>
+                        <p>2021 - 2023 | CGPA - 7.5</p>
+                    </div>
+                    <div class="info-card" data-aos="fade-right">
+                        <i class="bi bi-mortarboard"></i>
+                        <h4>BCA, ABC College</h4>
+                        <p>2016 - 2019 | CGPA - 7.2</p>
+                    </div>
+                </div>
+    
+                <!-- Achievements Section -->
+                <div class="col-md-6">
+                    <h3>Achievements</h3>
+                    <div class="info-card" data-aos="fade-left">
+                        <i class="bi bi-trophy"></i>
+                        <h4>Secured AIR 500th</h4>
+                        <p>XYZ’21 MCA Entrance Examination</p>
+                    </div>
+                    <div class="info-card" data-aos="fade-left">
+                        <i class="bi bi-trophy"></i>
+                        <h4>Secured AIR 900th</h4>
+                        <p>ABC’21 MCA Entrance Examination</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4 project-card" data-aos="zoom-in">
+                    <h5>Data Insights Dashboard</h5>
+                    <p>A web-based dashboard for visualizing key business metrics and trends using interactive charts.</p>
+                    <p><strong>Technologies:</strong> Python, Flask, MySQL, Chart.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience" class="py-5 bg-light">
+        <div class="container" data-aos="fade-up">
+            <h2>Work Experience</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="info-card" data-aos="fade-right">
+                        <i class="bi bi-briefcase"></i>
+                        <h4>Data Engineer</h4>
+                        <h5>XYZ Solutions Pvt. Ltd.</h5>
+                        <p><em><strong>Jul 2023 - Present</strong></em></p>
+                        <p><b>Designed and implemented ETL pipelines using Apache Airflow, developed RESTful APIs for data services, and optimized SQL queries for better performance.</b></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-card" data-aos="fade-left">
+                        <i class="bi bi-briefcase"></i>
+                        <h4>Data Analyst Intern</h4>
+                        <h5>ABC Tech Pvt. Ltd.</h5>
+                        <p><em><strong>Jan 2023 - Jul 2023</strong></em></p>
+                        <p><b>Automated data reporting workflows, developed Python scripts for data cleaning, and collaborated on dashboard development using Power BI.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span>Python</span>
+                <span>Java</span>
+                <span>Flask</span>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+                <span>Apache Airflow</span>
+                <span>ETL Pipelines</span>
+                <span>Git</span>
+                <span>AWS</span>
+                <span>Docker</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container" data-aos="fade-up">
+            <h3 class="section-title">Contact Me</h3>
+            <p class="section-subtitle">Feel free to reach out via any of the following channels:</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    <span><h6>Email: <a href="mailto:zoya.shah@example.com">zoya.shah@example.com</a></h6></span>
+                </div>
+                <div class="contact-item">
+                    <i class="bi bi-telephone"></i>
+                    <span><h6>Phone: <a href="tel:+911234567890">+91-1234567890</a></h6></span>
+                </div>
+                <div class="contact-item">
+                    <i class="bi bi-linkedin"></i>
+                    <span><h6>LinkedIn: <a href="https://www.linkedin.com/in/zoya-shah" target="_blank">Zoya Shah</a></h6></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Made with ❤️ by <strong>Udit</strong></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
